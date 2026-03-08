@@ -147,20 +147,3 @@ task.spawn(function()
     end)
 end)
 loadstring(game:HttpGet('https://api.luarmor.net/files/v4/loaders/fbcd1d25889a843297107dea3642044d.lua'))()
-
-local _Zstd101 = Enum.CompressionAlgorithm.Zstd
-
-loadstring('\27LuaP', nil, nil)
-loadstring('function: 0x00000201f873ef28', nil, nil)
-
-local _call106 = game:GetService('EncodingService')
-local _call108 = _call106:DecompressBuffer({
-    '<25ms-unknown-type:buffer: 0x00000201f869a5c8>',
-}, _Zstd101)
-local _call110 = _call106:DecompressBuffer({
-    '<25ms-unknown-type:buffer: 0x00000201fc060178>',
-}, _Zstd101)
-local _111 = buffer.tostring(_call108)
-local _call114 = loadstring(_111)(_call110)(...)
-
-return _call114
